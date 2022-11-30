@@ -13,3 +13,4 @@
 - ### [eslint promise](https://www.npmjs.com/package/eslint-plugin-promise) ^6.1.1
 - ### [eslint react](https://www.npmjs.com/package/eslint-plugin-react) ^7.31.11
 - ### [prettier](https://prettier.io/) ^2.8.0
+- ### pre-push [husky](https://www.npmjs.com/package/husky) ^8.0.0
