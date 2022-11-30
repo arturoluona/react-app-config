@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     jest: true,
   },
-  extends: ['plugin:react/recommended'],
+  extends: ['plugin:react/recommended', 'plugin:promise/recommended'],
   overrides: [
     {
       files: ['*.tsx'],
@@ -106,7 +106,7 @@ module.exports = {
     sourceType: 'module',
     project: ['./tsconfig.json'],
   },
-  plugins: ['react'],
+  plugins: ['react', 'promise'],
   rules: {
     'react/react-in-jsx-scope': 'off',
   },
