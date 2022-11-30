@@ -1,13 +1,7 @@
 import React from 'react';
-import './App.css';
 
-/**
- * Initial function.
- *
- * @returns Component App.
- */
-function App() {
-  return <div></div>;
-}
+const App = () => {
+  return <div className="text-3xl font-bold">Vite + React + Typescript</div>;
+};
 
 export default App;

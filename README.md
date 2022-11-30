@@ -1,4 +1,4 @@
-# This is a base application in react typescript, and it has the following configuration
+# This is a base application vite react typescript, and it has the following configuration
 
 ## Styles
 * ### [tailwind](https://tailwindcss.com/) ^3.2.4
