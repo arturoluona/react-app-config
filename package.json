@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "format": "npx prettier --write .",
     "format-check": "npx prettier --check .",
-    "lint": "npx eslint",
+    "lint": "npx eslint . --ext .js,.ts,.tsx",
     "prepare": "husky install"
   },
   "dependencies": {
