@@ -71,15 +71,11 @@ module.exports = {
           {
             publicOnly: false,
             require: {
-              ClassDeclaration: true,
               FunctionDeclaration: true,
+              ArrowFunctionExpression: true,
               MethodDefinition: true,
             },
             contexts: [
-              {
-                context: 'ClassProperty',
-                inlineCommentBlock: true,
-              },
               {
                 context: 'TSPropertySignature',
                 inlineCommentBlock: true,
@@ -88,7 +84,6 @@ module.exports = {
             exemptEmptyFunctions: false,
             checkConstructors: false,
           },
-        ],
         'jsdoc/require-param': 'error',
         'jsdoc/require-param-description': 'error',
         'jsdoc/require-param-name': 'error',
