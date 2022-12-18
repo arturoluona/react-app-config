@@ -84,6 +84,7 @@ module.exports = {
             exemptEmptyFunctions: false,
             checkConstructors: false,
           },
+        ],
         'jsdoc/require-param': 'error',
         'jsdoc/require-param-description': 'error',
         'jsdoc/require-param-name': 'error',
