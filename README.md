@@ -14,3 +14,23 @@
 - ### [eslint react](https://www.npmjs.com/package/eslint-plugin-react) ^7.31.11
 - ### [prettier](https://prettier.io/) ^2.8.0
 - ### pre-push [husky](https://www.npmjs.com/package/husky) ^8.0.0
+
+## Scripts
+
+`npm run dev`\
+Runs the web app locally on your system.
+
+`npm run build`\
+Builds the app to the `/dist`.
+
+`npm run preview`\
+Preview app after build.
+
+`npm run format`\
+Formats all the files in the project using Prettier.
+
+`npm run format-check`\
+Checks that all the files in the project have been formatted using Prettier.
+
+`npm run lint`\
+Checks all the TypeScript/JavaScript code for lint errors.
